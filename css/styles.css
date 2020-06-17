@@ -972,7 +972,7 @@ header .contacts .phones>*:before {
 
 header .menu {
     border-radius: 28px;
-    background:  var(--main_color_opacity);
+    background:  var(--main_color1);
     justify-content: space-between;
     align-items: stretch;
     align-content: stretch;
@@ -1037,7 +1037,7 @@ header .menu .item:hover>a.touch_link+.sub_menu {
     transition: .2s linear;
     opacity: 0;
     border-radius: 28px;
-   background:  var(--main_color_opacity);
+   background:  var(--main_color1);
 }
 
 header .menu .item:hover .sub_menu,
@@ -1126,7 +1126,7 @@ header .menu .flexMenu-popup {
     min-width: 100%;
     padding: 0;
     border-radius: 28px;
-    background:  var(--main_color_opacity);
+    background:  var(--main_color1);
 }
 
 header .menu .flexMenu-popup>* {
@@ -1749,7 +1749,7 @@ aside>*:last-child {
     height: 100%;
     content: '';
     opacity: .62;
-    background: #fff;
+    background: #000;
 }
 
 .main_slider .slide .bg {
@@ -2478,11 +2478,8 @@ aside>*:last-child {
     color: #fff;
     position: relative;
     display: block;
-    overflow: hidden;
     padding-bottom: 100%;
     text-decoration: none;
-    border-radius: 51px;
-    background: #ddd;
 }
 
 .articles .article img {
@@ -2493,7 +2490,8 @@ aside>*:last-child {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;    
+    border-radius: 51px;
 }
 
 .articles .article .info {
@@ -2503,7 +2501,7 @@ aside>*:last-child {
     left: 0;
     width: 100%;
     padding: 18px 22px 23px;
-    border-radius: 18px;
+    border-radius: 18px 18px 49px 49px;
     background: rgba(0, 0, 0, .58);
 }
 
@@ -3724,8 +3722,6 @@ aside>*:last-child {
     display: block;
     padding-bottom: calc(33.333% - 37px);
     text-decoration: none;
-    border-radius: 51px;
-    background: #ddd;
 }
 
 .services .service img {
@@ -3748,7 +3744,7 @@ aside>*:last-child {
     display: flex;
     width: 100%;
     padding: 25px 22px;
-    border-radius: 18px 18px 46px 46px;
+    border-radius: 18px 18px 49px 49px;
     background: rgba(0, 0, 0, 0.42);
     justify-content: space-between;
     align-items: center;
@@ -3799,11 +3795,8 @@ aside>*:last-child {
     color: #fff;
     position: relative;
     display: block;
-    overflow: hidden;
     padding-bottom: calc(33.333% - 36px);
     text-decoration: none;
-    border-radius: 51px;
-    background: #ddd;
 }
 
 .gallery .item img {
@@ -3815,6 +3808,7 @@ aside>*:last-child {
     width: 100%;
     height: 100%;
     object-fit: cover;
+     border-radius: 51px;
 }
 
 .gallery .images .item span {
@@ -3853,7 +3847,7 @@ aside>*:last-child {
     left: 0;
     width: 100%;
     padding: 18px 25px 23px;
-    border-radius: 18px 18px 51px 51px;
+    border-radius: 18px 18px 49px 49px;
     background: rgba(0, 0, 0, .58);
 }
 
@@ -3913,8 +3907,7 @@ aside>*:last-child {
     display: block;
     overflow: hidden;
     text-decoration: none;
-    border-radius: 30px;
-    background: #ddd;
+
 }
 
 .products .product .stickers {
@@ -3964,6 +3957,7 @@ aside>*:last-child {
     width: 100%;
     height: 100%;
     object-fit: cover;
+        border-radius: 30px;
 }
 
 .products .product .info {
@@ -3973,7 +3967,7 @@ aside>*:last-child {
     left: 0;
     width: 100%;
     padding: 13px 20px;
-    border-radius: 16px 16px 30px 30px;
+    border-radius: 16px 16px 29px 29px;
     background: rgba(0, 0, 0, .58);
 }
 

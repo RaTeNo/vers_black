@@ -6290,7 +6290,7 @@ header.fixed {
     position: fixed;
     -webkit-animation: moveDown .5s;
     animation: moveDown .5s;
-    background: #fff;
+    background: var(--bg);
 }
 
 header.fixed .info {
@@ -6301,7 +6301,7 @@ header.fixed .info {
     position: fixed;
     -webkit-animation: moveDown .5s;
     animation: moveDown .5s;
-    background: #fff;
+    background:var(--bg);
     padding: 20px 0 10px;
     width:100%;
     z-index: 1000;

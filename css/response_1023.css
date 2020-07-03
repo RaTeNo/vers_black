@@ -1562,4 +1562,10 @@
     /*---------------
         PopUp
     ---------------*/
+
+    .quiz_poll .step .links>*{
+        min-width: 140px;
+        padding: 0 10px;
+        font-size: 12px;
+    }
 }

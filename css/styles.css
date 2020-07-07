@@ -6357,3 +6357,9 @@ header.fixed .info {
 .product_info .description{
     overflow: auto;
 }
+
+
+.soc_block .widget iframe.vk{
+    width: 320px;
+    height: 493px;
+}

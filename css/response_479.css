@@ -280,8 +280,8 @@
 
     .product_info .image
     {
-        width: calc(100% - 140px);
-        padding-bottom: calc(100% - 140px);
+        width: calc(100%);
+        padding-bottom: calc(100%);
 
         border-radius: 30px;
     }
@@ -307,8 +307,7 @@
         font-size: 14px;
 
         width: 100%;
-        margin-top: 20px;
-
+       
         letter-spacing: 1px;
     }
 
@@ -785,8 +784,7 @@
 	}
 
     .product_info .buy .btn{
-        margin-left: auto;
-        margin-right: auto;
+        
     }
     
     #thanks .icon {
@@ -800,4 +798,16 @@
     /*---------------
         PopUp
     ---------------*/
+
+    .product_info .buy .back_link{
+        font-size:15px;
+    }
+
+    .product_info .buy .price{
+        flex-wrap: wrap;
+    }
+    .product_info .buy .price .val + .val{
+        width: 100%;
+        text-align: right;
+    }
 }

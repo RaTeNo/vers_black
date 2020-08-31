@@ -346,10 +346,8 @@
         height: 100vh;
         padding: 30px;
 
-        pointer-events: none;
+        pointer-events: auto;
 
-        column-gap: 30px;
-        column-count: 2;
     }
 
     aside .filter > *
@@ -515,8 +513,7 @@
 
     .cart_info .cart_total .val
     {
-        font-size: 30px;
-        line-height: 38px;
+
     }
 
 
@@ -1615,5 +1612,13 @@
 
     header .menu .item a.touch_link + .sub_menu.show .sub_menu a{
         padding-left:50px;
+    }
+
+    .block_checkform{
+        flex-wrap: wrap;
+    }
+
+    .tab_filter_title{
+        color:#000;
     }
 }

@@ -542,7 +542,8 @@
 
     .first_section .img
     {
-        margin: 35px auto 0;
+       margin: 0px auto 60px;
+        order:-1;
     }
 
 
@@ -1275,5 +1276,48 @@
     }
      .products_category .flex>*{
         width: calc(50% - 23px);
+    }
+
+     .about .img, .how_we_work .img, .big_boss_quote .img, .director_letter .img, .quiz_poll .img{
+        margin-bottom:35px;
+    }
+
+
+    .first_section .img:after{
+        top: 15px;
+        left: 0px;
+    }    
+    .first_section .img:before{
+        right: -15px;
+        bottom: -60px;
+    }
+
+    .about .img:after{
+        top: 15px;
+        left: 0px;
+    }
+
+    .about .img:before{
+        right: 10px;
+        bottom: -40px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .how_we_work .img:after, .big_boss_quote .img:after, .director_letter .img:after, .quiz_poll .img:after{
+        top: 16px;
+        left: 0px;    
+    }
+
+    .how_we_work .img:before, .big_boss_quote .img:before, .director_letter .img:before{
+        left: -15px;
+        bottom: -60px;
+        border-radius: 70px;
+    }
+
+    .quiz_poll .img:before{
+        left: 13px;
+        bottom: -45px;
+        border-radius: 70px;
     }
 }

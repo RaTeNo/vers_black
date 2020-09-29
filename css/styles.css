@@ -1741,13 +1741,26 @@ aside>*:last-child {
 }
 
 .first_section .img.no_mask {
-    width: auto;
+    width: 100%;
     max-width: 475px;
     height: 603px;
     padding-top: 45px;
     padding-right: 75px;
     filter: none;
 }
+
+
+.first_section .img.no_mask>* {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    mask: none;
+    -webkit-mask-box-image: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
 
 .first_section .img.no_mask:after, .first_section .img.no_mask:before{
     display: none;

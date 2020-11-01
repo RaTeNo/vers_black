@@ -7006,3 +7006,17 @@ a.back_cat{
     z-index: -1;
     transform:rotate(45deg);
 }
+
+.faq .item .text_block table{
+    border-color:white;
+}
+.faq .item .data{
+    overflow-x: auto;
+}
+
+.text_block table th {
+    padding: 20px;
+}
+.text_block table{
+    border-collapse: collapse;
+}

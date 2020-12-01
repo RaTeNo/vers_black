@@ -1661,4 +1661,7 @@
         right: -50px;
         bottom: -70px;
     }
+    .irs-single, .irs-from, .irs-to{
+        color:black;
+    }
 }

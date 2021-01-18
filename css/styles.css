@@ -7057,3 +7057,9 @@ aside .cats label:after{
 .tab_filter_title.active i{
     height:20px;
 }
+
+
+
+.main_slider .owl-carousel .owl-nav button span {
+    font-family: 'Rubik', 'Arial', sans-serif;
+}
